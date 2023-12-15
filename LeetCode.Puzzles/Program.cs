@@ -32,11 +32,20 @@
 
 
 
-PuzzleBase puzzle = new ZigzagConversionPuzzle();
-puzzle.PrintOutput(2, "PAYPALISHIRING", 3);
-puzzle.PrintOutput(2, "PAYPALISHIRING", 4);
-puzzle.PrintOutput(2, "PAYPALISHIRING", 2);
-puzzle.PrintOutput(2, "ABCD", 2);
+// PuzzleBase puzzle = new ZigzagConversionPuzzle();
+// puzzle.PrintOutput(2, "PAYPALISHIRING", 3);
+// puzzle.PrintOutput(2, "PAYPALISHIRING", 4);
+// puzzle.PrintOutput(2, "PAYPALISHIRING", 2);
+// puzzle.PrintOutput(2, "ABCD", 2);
+
+
+
+PuzzleBase puzzle = new ReverseIntegerPuzzle();
+puzzle.PrintOutput(1, 1534236469);
+
+
+
+
 
 // int i = 22;
 // Console.WriteLine(i >> 3);

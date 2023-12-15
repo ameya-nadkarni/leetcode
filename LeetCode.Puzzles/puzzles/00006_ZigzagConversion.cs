@@ -3,8 +3,6 @@
 */
 
 
-using System.Text;
-
 namespace Leetcode.Puzzles.puzzles;
 
 public class ZigzagConversionPuzzle : PuzzleBase
@@ -31,7 +29,7 @@ public class ZigzagConversionPuzzle : PuzzleBase
             return s;
         var r = new string[numRows];
         bool down = false;
-        
+
         for (int i = 0, index = 0; i < s.Length; i++)
         {
             r[index] += s[i];
