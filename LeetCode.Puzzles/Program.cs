@@ -40,9 +40,20 @@
 
 
 
-PuzzleBase puzzle = new ReverseIntegerPuzzle();
-puzzle.PrintOutput(1, 1534236469);
+// PuzzleBase puzzle = new ReverseIntegerPuzzle();
+// puzzle.PrintOutput(1, 1534236469);
 
+
+
+
+PuzzleBase puzzle = new StringToIntegerPuzzle();
+puzzle.PrintOutput(2, "+-12");
+puzzle.PrintOutput(2, "3.14159");
+puzzle.PrintOutput(2, "-91283472332");
+puzzle.PrintOutput(2, "-42");
+puzzle.PrintOutput(2, "  42");
+puzzle.PrintOutput(2, "  42 x y z");
+puzzle.PrintOutput(2, " x 42 x y z");
 
 
 
